@@ -1,0 +1,17 @@
+
+
+# refreshimports
+
+a cli tool that strips the imports list in go source files and runs goimports to re-set them.
+
+# usage
+
+goimports [-w] dir|file
+
+ -w writes to file, default stdout
+
+go imports walks a directory for go source files or takes a single file from arg
+
+uayor
+
+license MIT
